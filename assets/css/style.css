@@ -1188,3 +1188,13 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/* Custom CSS */
+
+  .navbar .resume-btn:hover:before,
+.navbar li:hover>.resume-btn:before,
+.navbar .active:before {
+  visibility: hidden;
+  width: 25px;
+
+}
